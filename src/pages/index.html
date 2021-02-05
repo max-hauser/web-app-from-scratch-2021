@@ -84,13 +84,9 @@
       const recipes = result.recipes;
 
       recipes.forEach(recipe => {
-        article.innerHTML += `
-          <a href="#">
-            <img src="${recipe.image}" />
-            <h3>${recipe.title}</h3>
-            <span>&#9202; ${recipe.readyInMinutes} min | 👤 ${Math.round(recipe.servings)} personen</span>
-          </a>
-        `;        
+
+        const card = `<a href="#"><img src="${recipe.image}" /><h3>${recipe.title}</h3><span>&#9202; ${recipe.readyInMinutes} min | 👤 ${Math.round(recipe.servings)} personen</span></a>`;      
+        article.insertAdjacentHTML('beforeend', card);
       });
 
     }
