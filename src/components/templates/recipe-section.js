@@ -2,7 +2,7 @@ import recipes from "../organisms/recipes.js";
 
 async function recipeSection() {
   const body = document.querySelector('body');
-  body.insertAdjacentHTML('beforeend', `<section><h2>Recepten</h2><article></article></section>`);  
+  body.insertAdjacentHTML('beforeend', `<section class="overview"><h2>Recepten</h2><article class="cards"></article></section>`);  
   await recipes('article');
 }
 
