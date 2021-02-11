@@ -12,13 +12,22 @@ async function apiCall(query) {
       localStorage.setItem(query, JSON.stringify(data));
       return data;
     });
-  }else{
+  }else if(! parseInt(query)){
     fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${query}&maxFat=25&number=${resultAmount}&apiKey=${key}`)
     .then(response => response.json()).then(data => {
       localStorage.setItem(query, JSON.stringify(data));
       return data;
     });
+  }else{
+    console.log('ik kom wel hier...')
+    fetch(`https://api.spoonacular.com/recipes/${query}/information?apiKey=${key}`)
+    .then(response => response.json()).then(data => {
+      localStorage.setItem(query, JSON.stringify(data));
+      return data;
+    });    
   }
+
+  
 }
 
 export default apiCall;

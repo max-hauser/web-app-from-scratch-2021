@@ -12,6 +12,7 @@ async function recipes(location) {
   const result = await fetchRecipes();
   const recipes = result.results;
   const position = document.querySelector(location);
+
   recipes.forEach(recipe => {
     position.insertAdjacentHTML('beforeend', card(recipe));
   });

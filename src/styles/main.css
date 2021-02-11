@@ -18,6 +18,26 @@
       margin-bottom: 10vh;
     }
 
+    #recept a.nav{grid-area: link;}
+    #recept h1{ grid-area: header;}
+    #recept p{ grid-area: main; max-width: 80%;}
+    #recept img{ grid-area: image;}  
+    #recept ol {grid-area: sidebar;}
+    #recept ul {grid-area: ingredients;}
+
+  #recept article {
+    display: grid;
+    grid-template-columns: 35vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "link link link link"
+      "header header header header"
+      "image image . ingredients"
+      "main main . sidebar";
+      width: 80vw;
+      grid-gap: initial;
+  }  
+
     section {
     display: flex;
     justify-content: center;
@@ -47,7 +67,7 @@
     padding-left: 10px;
 }  
 
-    article a {
+#recepten article a {
         text-decoration: none;
         color: #000;
         background-color: #f1f1f1;
@@ -58,3 +78,9 @@
         border-bottom-right-radius: 10px;
         padding-bottom: 25px;
     }  
+
+
+    section.nodisplay,
+    .hide{
+      display: none;
+    }
