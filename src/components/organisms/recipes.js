@@ -1,9 +1,9 @@
 import card from "../molecules/card.js";
-import apiCall from "../../js/api.js";
+import {overview} from "../../js/api.js";
 
 async function fetchRecipes() {
   const query = 'fish';
-  const response = await apiCall(query);
+  const response = await overview(query);
   const recipes = JSON.parse(response);
   return recipes;
 }

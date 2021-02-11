@@ -1,4 +1,4 @@
-async function apiCall(query) {
+async function overview(query) {
   const request = localStorage.getItem(query);
 
   const key = "e5e6701e3488481c8ea8a07e2d8e4f84";
@@ -30,4 +30,18 @@ async function apiCall(query) {
   
 }
 
-export default apiCall;
+async function detailInfo(recipeID) {
+  const request = localStorage.getItem(recipeID);
+  const key = "e5e6701e3488481c8ea8a07e2d8e4f84";
+  if(request){
+    return request;
+  }else{
+    fetch(`https://api.spoonacular.com/recipes/${recipeID}/information?apiKey=${key}`)
+    .then(response => response.json()).then(data => {
+      localStorage.setItem(recipeID, JSON.stringify(data));
+      return data;
+    });    
+  }  
+}
+
+export {overview, detailInfo};
