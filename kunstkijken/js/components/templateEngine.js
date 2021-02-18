@@ -23,7 +23,7 @@ async function overview(){
   clearMain();
   document.querySelector('main').className = "overview";
   const artObjects = await getRandomArt();
-  overviewTemplate(artObjects);
+  overviewTemplate(artObjects); 
 }
 
 
