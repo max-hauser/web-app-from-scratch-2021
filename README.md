@@ -84,6 +84,10 @@ Ik heb gezocht naar voedsel gerelateerde api's.. Maar die zijn er niet. Dus heb 
 #### Donderdag
 KunstKijken live gezet op Github!
 
+##### actor diagram
+
+![actor diagram](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/actor-diagram.png)
+
 ## Hoe te gebruiken
 
 
