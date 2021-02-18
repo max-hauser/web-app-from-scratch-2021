@@ -52,7 +52,6 @@ function next(){
   if(cards.length >= 1){
     const allCards = Array.prototype.slice.call(cards);
     allCards[0].remove();
-    console.log(allCards.length);
     if(allCards.length == 1){
       document.querySelector('main').innerHTML = `<p>That's all folks!</p>`;
     }
