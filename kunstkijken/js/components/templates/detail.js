@@ -23,6 +23,7 @@ function detailTemplate(data) {
   console.log(artObject);
   const main = document.querySelector('main');
   main.insertAdjacentHTML("afterbegin", `
+  <a href="" class="terug">&#60; Alle kunstwerken</a>
   ${title(artObject.title)}
   ${image(artObject.webImage.url)}
   ${description(artObject.description, artObject.label.description)}

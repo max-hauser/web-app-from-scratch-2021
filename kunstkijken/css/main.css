@@ -105,19 +105,40 @@ a div{
 }
 
 main.detail{
-  padding-top: 10vh;
+  padding-top: 20vh;
   display: grid;
-  grid-template-columns: 45vw 50vw;
-  grid-template-rows: auto 10vh auto;
+  grid-template-columns: 35vw 50vw;
+  grid-template-rows: auto auto 10vh auto;
   grid-template-areas: 
-    "header  header"
+    "terug  terug"
+    "header header"
     "main sideheader"
     "main sidebar";  
+    width: 80vw;
+    margin: 0px auto;
+}
+
+main.detail .terug{
+  grid-area: terug;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  display: inline-block;
+  width: 10vw;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+main.detail .terug:hover{
+  opacity: 1;
 }
 
 main.detail h1{
   grid-area: header;
-  padding-left: 8vw;
 }
 
 main.detail h3{
@@ -127,7 +148,6 @@ main.detail h3{
 main.detail img{
   max-width: 30vw;
   grid-area: main;
-  margin: 0px auto;
 }
 
 main.detail .meta{
