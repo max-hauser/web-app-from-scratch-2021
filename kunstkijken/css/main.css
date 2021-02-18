@@ -181,3 +181,16 @@ input#query{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
+.noResults{
+  text-align: center;
+}
+
+.noResults h3{
+  font-size: 3vw;
+}
+
+.noResults a{
+  text-decoration: none;
+  color: #fff;
+}

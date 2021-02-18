@@ -10,7 +10,7 @@ async function getArtByArtist(name){
   const endpoint = 'https://www.rijksmuseum.nl/api/nl/collection', 
         key = 'SM7rr6VN',
         url = `${endpoint}?key=${key}&involvedMaker=${name}`;
-        return fetch (url).then(response => response.json()).then(data => {return data});      
+        return fetch (url).then(response => response.json()).then(data => {return data});
 }
 
 async function getArtDetails(id){

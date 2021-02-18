@@ -20,7 +20,6 @@ function meta(artist, year) {
 
 function detailTemplate(data) {
   const artObject = data.artObject;
-  console.log(artObject);
   const main = document.querySelector('main');
   main.insertAdjacentHTML("afterbegin", `
   <a href="" class="terug">&#60; Alle kunstwerken</a>
