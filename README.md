@@ -1,6 +1,6 @@
 # Webapplicatie: kunstkijken
 
-[Live link](Linkhttps://max-hauser.github.io/web-app-from-scratch-2021/kunstkijken/index.html)
+[Live link](https://max-hauser.github.io/web-app-from-scratch-2021/kunstkijken/index.html)
 
 ![voorblad](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/voorblad.png)
 
@@ -52,7 +52,37 @@ Uiteindelijk voor spoonacular gekozen.
 
 ### Week 2 
 
+#### Maandag
+Vandaag heb ik mijn code volledig omgezet naar de atomic design, maar tegen het einde dat ik klaar was kon ik geen requests meer doen naar de API. Hierdoor wist ik niet goed wat ik kon doen, en verloor ik mijn concentratie, al met al geen productive dag dus 😕
+
+#### Dinsdag
+Vandaag ben ik begonnen met het proberen op te slaan van data in localstorage zodat ik niet per see meer afhankelijk ben van de api request limiet. 
+
+#### Woensdag
+Op Woensdag heb ik veel CSS gedaan voor CSS To The Rescue
+
+#### Donderdag
+Vandaag had ik als doel om mijn router te fixen en mijn detail pagina qua layout af te hebben.
+Dit was veel werk, maar uiteindelijk was het gelukt. Maar toen begon het probleem. Ik had veel problemen met het uploaden naar Github. Dit was een heel gedoe, dus ik heb de hulp ingeschakeld van een student-assistent. Wij kwamen samen een heel eind, en uiteindelijk is het eindelijk gelukt.
+
+#### Vrijdag
+Op Vrijdag heb ik veel CSS gedaan voor CSS To The Rescue, en een planning gemaakt met Leonie de studentassistent
+
 ### Week 3 
+
+#### Maandag
+Vandaag zou ik eigenlijk weinig gaan programmeren, maar toen kwam ik erachter dat iets fundamenteels fout had in de opbouw van mijn code. Dit duurde de hele dag om het te fixen.
+
+#### Dinsdag
+Vandaag stond in het teken van het maken van een filter. Dit is voor 95% gelukt, want net toen ik het laatste gedeelte wilde testen, waren mijn requests op, en kon ik het niet afmaken. Dit heb ik besproken met de leraar en ik heb te horen gekregen dat als ik een happy flow maak, dat dat ook goed is.
+
+#### Woensdag
+Na nog een keer een api request limit te hebben gekregen, had ik er echt helemaal genoeg van. Ik heb besloten om van onderwerp te veranderen, met als enige doel om een api te vinden die geen limiet heeft als het gaat om requests!!!!
+
+Ik heb gezocht naar voedsel gerelateerde api's.. Maar die zijn er niet. Dus heb ik uiteindelijk besloten om de api van het Rijksmuseum te gebruiken. Dit werkt nu al zo veel fijner!
+
+#### Donderdag
+KunstKijken live gezet op Github!
 
 ## Hoe te gebruiken
 
