@@ -1,86 +1,109 @@
+*{box-sizing: border-box;}
 
-      body{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-      h1{
-        font-size: 3em;
-      }
 
-    article{
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
-	    grid-gap: 2em;
-      width: 70vw;
-      margin-bottom: 10vh;
-    }
-
-    #recept a.nav{grid-area: link;}
-    #recept h1{ grid-area: header;}
-    #recept p{ grid-area: main; max-width: 80%;}
-    #recept img{ grid-area: image;}  
-    #recept ol {grid-area: sidebar;}
-    #recept ul {grid-area: ingredients;}
-
-  #recept article {
-    display: grid;
-    grid-template-columns: 35vw;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "link link link link"
-      "header header header header"
-      "image image . ingredients"
-      "main main . sidebar";
-      width: 80vw;
-      grid-gap: initial;
-  }  
-
-    section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    flex-direction: column;
-  }
-
-  a img {
-      width: 100%;
-      object-fit: none;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-  }
-
-  a h3{
-    padding: 15px 15px 0px 15px;
-    margin-bottom: 0px;
-  }
-
-  a p{
-    padding: 15px;
-  }
-
-  article a span {
-    font-size: 14px;
-    padding-left: 10px;
+header{
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between;
+  padding: 5vh 10vw;
+  align-items: center;
 }  
 
-#recepten article a {
-        text-decoration: none;
-        color: #000;
-        background-color: #f1f1f1;
-        box-shadow: 0px 0px 10px #999;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;   
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding-bottom: 25px;
-    }  
+.filter{
+  display: flex;
+  flex-direction: column;  
+}
 
+.filter label {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
 
-    section.nodisplay,
-    .hide{
-      display: none;
-    }
+.filter input{
+  padding: 10px;
+  border: 1px solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  min-width: 15vw;
+}
+
+.filter button{
+  padding: 10px;
+  border: 1px solid #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -1px;
+  background-color: darkblue;
+  color:#fff;
+}
+
+  h1{
+  font-size: 3vw;
+  }
+  
+main.overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  column-gap: 1em;
+  width: 80vw;
+  margin: 20vh auto;
+}
+
+main.overview a{
+  text-decoration: none;
+  color: #101010;
+  background-color: #f1f1f1;
+  margin-bottom: 1em;
+}
+
+main.overview  a img {
+  width: 100%;
+  object-fit: fill;
+  object-position: 0px -15px;
+}
+
+main.overview a h3{
+  margin: 0;
+  padding: 0 30px;
+}
+
+main.overview a p{
+  padding: 15px 30px 30px 30px;
+  margin: 0px;
+}
+
+main.overview.hide,
+.hide{
+display: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+a.home {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 5vh 10vw;
+  background-color: darkblue;
+}  
+
+.detail section {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.detail section article{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0fr 1fr;
+  gap: 15px 15px;
+  grid-template-areas:
+    ". ."
+    ". .";  
+}

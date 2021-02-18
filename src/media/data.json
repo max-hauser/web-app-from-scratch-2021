@@ -1,0 +1,1447 @@
+{
+    "detail": {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "weightWatcherSmartPoints": 5,
+        "gaps": "no",
+        "lowFodmap": false,
+        "aggregateLikes": 1,
+        "spoonacularScore": 24,
+        "healthScore": 2,
+        "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+        "license": "CC BY 3.0",
+        "sourceName": "Foodista",
+        "pricePerServing": 40.06,
+        "extendedIngredients": [
+            {
+                "id": 2044,
+                "aisle": "Produce;Spices and Seasonings",
+                "image": "basil.jpg",
+                "consistency": "solid",
+                "name": "basil",
+                "nameClean": "basil",
+                "original": "1 teaspoon Basil, dried(or marjoram)",
+                "originalString": "1 teaspoon Basil, dried(or marjoram)",
+                "originalName": "Basil, dried(or marjoram)",
+                "amount": 1,
+                "unit": "teaspoon",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 18079,
+                "aisle": "Pasta and Rice",
+                "image": "breadcrumbs.jpg",
+                "consistency": "solid",
+                "name": "breadcrumbs",
+                "nameClean": "breadcrumbs",
+                "original": "1/3 cup breadcrumbs",
+                "originalString": "1/3 cup breadcrumbs",
+                "originalName": "breadcrumbs",
+                "amount": 0.3333333333333333,
+                "unit": "cup",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.333,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 78.863,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 1123,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "egg.png",
+                "consistency": "solid",
+                "name": "egg",
+                "nameClean": "egg",
+                "original": "1 extra large egg",
+                "originalString": "1 extra large egg",
+                "originalName": "egg",
+                "amount": 1,
+                "unit": "extra large",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 1,
+                        "unitShort": "extra large",
+                        "unitLong": "extra large"
+                    },
+                    "metric": {
+                        "amount": 1,
+                        "unitShort": "extra large",
+                        "unitLong": "extra large"
+                    }
+                }
+            },
+            {
+                "id": 10023572,
+                "aisle": "Meat",
+                "image": "fresh-ground-beef.jpg",
+                "consistency": "solid",
+                "name": "ground meat",
+                "nameClean": "ground beef",
+                "original": "500 grams Ground meat (a mix of pork and beef)",
+                "originalString": "500 grams Ground meat (a mix of pork and beef)",
+                "originalName": "Ground meat (a mix of pork and beef)",
+                "amount": 500,
+                "unit": "grams",
+                "meta": [
+                    "(a mix of pork and beef)"
+                ],
+                "metaInformation": [
+                    "(a mix of pork and beef)"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.102,
+                        "unitShort": "lb",
+                        "unitLong": "pounds"
+                    },
+                    "metric": {
+                        "amount": 500,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 1077,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "milk.png",
+                "consistency": "liquid",
+                "name": "milk",
+                "nameClean": "milk",
+                "original": "30 60ml milk",
+                "originalString": "30 60ml milk",
+                "originalName": "milk",
+                "amount": 1800,
+                "unit": "ml",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.902,
+                        "unitShort": "qt",
+                        "unitLong": "quarts"
+                    },
+                    "metric": {
+                        "amount": 1800,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 4582,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "vegetable-oil.jpg",
+                "consistency": "liquid",
+                "name": "oil",
+                "nameClean": "cooking oil",
+                "original": "1/2 tablespoon Oil",
+                "originalString": "1/2 tablespoon Oil",
+                "originalName": "Oil",
+                "amount": 0.5,
+                "unit": "tablespoon",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 0.5,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 11282,
+                "aisle": "Produce",
+                "image": "brown-onion.png",
+                "consistency": "solid",
+                "name": "onions",
+                "nameClean": "onion",
+                "original": "70 grams Onions",
+                "originalString": "70 grams Onions",
+                "originalName": "Onions",
+                "amount": 70,
+                "unit": "grams",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 2.469,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 70,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 2047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt.jpg",
+                "consistency": "solid",
+                "name": "salt",
+                "nameClean": "salt",
+                "original": "1 teaspoon salt",
+                "originalString": "1 teaspoon salt",
+                "originalName": "salt",
+                "amount": 1,
+                "unit": "teaspoon",
+                "meta": [],
+                "metaInformation": [],
+                "measures": {
+                    "us": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 2032,
+                "aisle": "Spices and Seasonings",
+                "image": "white-pepper.png",
+                "consistency": "solid",
+                "name": "white pepper",
+                "nameClean": "ground white pepper",
+                "original": "1 teaspoon White pepper",
+                "originalString": "1 teaspoon White pepper",
+                "originalName": "White pepper",
+                "amount": 1,
+                "unit": "teaspoon",
+                "meta": [
+                    "white"
+                ],
+                "metaInformation": [
+                    "white"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            }
+        ],
+        "id": 643851,
+        "title": "Frikadellen German Meat Patties",
+        "readyInMinutes": 45,
+        "servings": 18,
+        "sourceUrl": "http://www.foodista.com/recipe/WNJZYWJ3/frikadellen-german-meat-patties",
+        "image": "https://spoonacular.com/recipeImages/643851-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Frikadellen German Meat Patties might be just the hor d'oeuvre you are searching for. One serving contains <b>148 calories</b>, <b>9g of protein</b>, and <b>10g of fat</b>. This recipe serves 18 and costs 39 cents per serving. A mixture of salt, ground meat, milk, and a handful of other ingredients are all it takes to make this recipe so flavorful. 1 person were impressed by this recipe. This recipe is typical of European cuisine. From preparation to the plate, this recipe takes about <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 26%</b>. This score is rather bad. Try <a href=\"https://spoonacular.com/recipes/german-hamburgers-frikadellen-470908\">German Hamburgers (Frikadellen)</a>, <a href=\"https://spoonacular.com/recipes/german-potato-patties-410755\">German Potato Patties</a>, and <a href=\"https://spoonacular.com/recipes/buckwheat-meat-patties-709274\">Buckwheat Meat Patties</a> for similar recipes.",
+        "cuisines": [
+            "German",
+            "European"
+        ],
+        "dishTypes": [
+            "antipasti",
+            "starter",
+            "snack",
+            "appetizer",
+            "antipasto",
+            "hor d'oeuvre"
+        ],
+        "diets": [],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [
+                "riesling",
+                "dornfelder"
+            ],
+            "pairingText": "German works really well with Riesling and Dornfelder. Beer might seem like the natural pick for German food, but German riesling pairs wonderfully with seafood and schnitzel, while a German red like Dornfelder goes well with beef and game meat. You could try Wagner Vineyards Riesling Ice. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 31 dollars per bottle.",
+            "productMatches": [
+                {
+                    "id": 428211,
+                    "title": "Wagner Vineyards Riesling Ice",
+                    "description": "Gently pressing frozen grapes extracts only the juice while leaving water behind in the form of ice. The result is this luxurious, full-bodied dessert wine. Aromatic and zesty, each sip exploded with vibrant fruitiness & leaves behind a lively, lingering finish.",
+                    "price": "$30.99",
+                    "imageUrl": "https://spoonacular.com/productImages/428211-312x231.jpg",
+                    "averageRating": 0.9400000000000001,
+                    "ratingCount": 4,
+                    "score": 0.8630769230769231,
+                    "link": "https://www.amazon.com/Wagner-Vineyards-Riesling-White-Dessert/dp/B01F7MZ0D2?tag=spoonacular-20"
+                }
+            ]
+        },
+        "instructions": "<ol><li>Peel and dice the onions, then saute in oil until transparent. Add sauteed onions to ground meat in a mixing bowl. Stir together breadcrumbs and milk and add to meat mixture.</li><li>Add egg, basil, salt and pepper and mix well. Dampen hands and form meat mixture into palm-sized patties.</li><li>Preheat non-stick skillet with a little oil. Pan-fry the meat patties over medium high heat until browned on both sides. Serve them with salad, fries and tzatziki. Alternatively they can be served with German dumplings and black pepper sauce.</li></ol>",
+        "analyzedInstructions": [
+            {
+                "name": "",
+                "steps": [
+                    {
+                        "number": 1,
+                        "step": "Peel and dice the onions, then saute in oil until transparent.",
+                        "ingredients": [
+                            {
+                                "id": 11282,
+                                "name": "onion",
+                                "localizedName": "onion",
+                                "image": "brown-onion.png"
+                            },
+                            {
+                                "id": 4582,
+                                "name": "cooking oil",
+                                "localizedName": "cooking oil",
+                                "image": "vegetable-oil.jpg"
+                            }
+                        ],
+                        "equipment": []
+                    },
+                    {
+                        "number": 2,
+                        "step": "Add sauteed onions to ground meat in a mixing bowl. Stir together breadcrumbs and milk and add to meat mixture.",
+                        "ingredients": [
+                            {
+                                "id": 18079,
+                                "name": "breadcrumbs",
+                                "localizedName": "breadcrumbs",
+                                "image": "breadcrumbs.jpg"
+                            },
+                            {
+                                "id": 10023572,
+                                "name": "ground beef",
+                                "localizedName": "ground beef",
+                                "image": "fresh-ground-beef.jpg"
+                            },
+                            {
+                                "id": 11282,
+                                "name": "onion",
+                                "localizedName": "onion",
+                                "image": "brown-onion.png"
+                            },
+                            {
+                                "id": 1065062,
+                                "name": "meat",
+                                "localizedName": "meat",
+                                "image": "whole-chicken.jpg"
+                            },
+                            {
+                                "id": 1077,
+                                "name": "milk",
+                                "localizedName": "milk",
+                                "image": "milk.png"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 405907,
+                                "name": "mixing bowl",
+                                "localizedName": "mixing bowl",
+                                "image": "mixing-bowl.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "step": "Add egg, basil, salt and pepper and mix well. Dampen hands and form meat mixture into palm-sized patties.Preheat non-stick skillet with a little oil. Pan-fry the meat patties over medium high heat until browned on both sides.",
+                        "ingredients": [
+                            {
+                                "id": 1102047,
+                                "name": "salt and pepper",
+                                "localizedName": "salt and pepper",
+                                "image": "salt-and-pepper.jpg"
+                            },
+                            {
+                                "id": 2044,
+                                "name": "basil",
+                                "localizedName": "basil",
+                                "image": "basil.jpg"
+                            },
+                            {
+                                "id": 1065062,
+                                "name": "meat",
+                                "localizedName": "meat",
+                                "image": "whole-chicken.jpg"
+                            },
+                            {
+                                "id": 1123,
+                                "name": "egg",
+                                "localizedName": "egg",
+                                "image": "egg.png"
+                            },
+                            {
+                                "id": 4582,
+                                "name": "cooking oil",
+                                "localizedName": "cooking oil",
+                                "image": "vegetable-oil.jpg"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 404645,
+                                "name": "frying pan",
+                                "localizedName": "frying pan",
+                                "image": "pan.png"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "step": "Serve them with salad, fries and tzatziki. Alternatively they can be served with German dumplings and black pepper sauce.",
+                        "ingredients": [
+                            {
+                                "id": 1002030,
+                                "name": "black pepper",
+                                "localizedName": "black pepper",
+                                "image": "pepper.jpg"
+                            },
+                            {
+                                "id": 93777,
+                                "name": "tzatziki",
+                                "localizedName": "tzatziki",
+                                "image": "raita-or-tzaziki.png"
+                            },
+                            {
+                                "id": 11408,
+                                "name": "french fries",
+                                "localizedName": "french fries",
+                                "image": "french-fries-isolated.jpg"
+                            },
+                            {
+                                "id": 0,
+                                "name": "sauce",
+                                "localizedName": "sauce",
+                                "image": ""
+                            }
+                        ],
+                        "equipment": []
+                    }
+                ]
+            }
+        ],
+        "originalId": null,
+        "spoonacularSourceUrl": "https://spoonacular.com/frikadellen-german-meat-patties-643851"
+    },
+   "overview": { 
+   "chicken" : {
+        "results": [
+            {
+                "id": 637876,
+                "title": "Chicken 65",
+                "image": "https://spoonacular.com/recipeImages/637876-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 2.72924,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638420,
+                "title": "Chicken Wings",
+                "image": "https://spoonacular.com/recipeImages/638420-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 4.85545,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638174,
+                "title": "Chicken Lo Mein",
+                "image": "https://spoonacular.com/recipeImages/638174-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 7.88814,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638086,
+                "title": "Chicken Fingers",
+                "image": "https://spoonacular.com/recipeImages/638086-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 6.29338,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638257,
+                "title": "Chicken Porridge",
+                "image": "https://spoonacular.com/recipeImages/638257-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 6.47166,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638148,
+                "title": "Chicken Kale Bake",
+                "image": "https://spoonacular.com/recipeImages/638148-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 10.3559,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 637942,
+                "title": "Chicken Arrozcaldo",
+                "image": "https://spoonacular.com/recipeImages/637942-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 16.4894,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638002,
+                "title": "Chicken Cacciatore",
+                "image": "https://spoonacular.com/recipeImages/638002-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 24.6568,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638263,
+                "title": "Chicken Pita Fajita",
+                "image": "https://spoonacular.com/recipeImages/638263-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 8.6531,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 228
+    },
+    "cheese": {
+        "results": [
+            {
+                "id": 637535,
+                "title": "Cheese and Leek Strata",
+                "image": "https://spoonacular.com/recipeImages/637535-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 13.3142,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 471334,
+                "title": "Cheese and Corn Scones",
+                "image": "https://spoonacular.com/recipeImages/471334-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 15.1825,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 641880,
+                "title": "Easy Cheese Danish",
+                "image": "https://spoonacular.com/recipeImages/641880-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 2.42861,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 635372,
+                "title": "Blue Cheese Stuffed Potatoes",
+                "image": "https://spoonacular.com/recipeImages/635372-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 17.1537,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 635370,
+                "title": "Blue Cheese Tartlets With Fig Jam and Walnuts",
+                "image": "https://spoonacular.com/recipeImages/635370-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 24.4886,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 635297,
+                "title": "Bleu Cheese Stuffed Wine Cherries With Honeycomb",
+                "image": "https://spoonacular.com/recipeImages/635297-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 0.891864,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 644958,
+                "title": "Goat Cheese Stuffed Bacon Wrapped Jalapeno Appetizer",
+                "image": "https://spoonacular.com/recipeImages/644958-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 11.7717,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640489,
+                "title": "Cream Cheese Cookies",
+                "image": "https://spoonacular.com/recipeImages/640489-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 1.47021,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 633508,
+                "title": "Baked Cheese Manicotti",
+                "image": "https://spoonacular.com/recipeImages/633508-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 12.5409,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 133
+    },
+    "chocolate": {
+        "results": [
+            {
+                "id": 639167,
+                "title": "Chocolate Plums",
+                "image": "https://spoonacular.com/recipeImages/639167-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 4.56066,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639234,
+                "title": "Chocolate Wafers",
+                "image": "https://spoonacular.com/recipeImages/639234-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 0.7854,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639120,
+                "title": "Chocolate Oatmeal",
+                "image": "https://spoonacular.com/recipeImages/639120-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 3.70808,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639168,
+                "title": "Chocolate Popcorn",
+                "image": "https://spoonacular.com/recipeImages/639168-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 15.3881,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639047,
+                "title": "Chocolate Hand Pies",
+                "image": "https://spoonacular.com/recipeImages/639047-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 15.7148,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639116,
+                "title": "Chocolate nut spread",
+                "image": "https://spoonacular.com/recipeImages/639116-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 11.7704,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638808,
+                "title": "Chocolate Almond Bark",
+                "image": "https://spoonacular.com/recipeImages/638808-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 16.5045,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 638936,
+                "title": "Chocolate Chip Muffins",
+                "image": "https://spoonacular.com/recipeImages/638936-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 16.8453,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639031,
+                "title": "Chocolate Fudge Cookies",
+                "image": "https://spoonacular.com/recipeImages/639031-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.28333,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 160
+    },
+    "cookie": {
+        "results": [
+            {
+                "id": 640002,
+                "title": "Cookie Bars",
+                "image": "https://spoonacular.com/recipeImages/640002-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 7.86943,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 632116,
+                "title": "Almond Cookie Bar",
+                "image": "https://spoonacular.com/recipeImages/632116-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.58907,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1461601,
+                "title": "The Best Monster Cookie",
+                "image": "https://spoonacular.com/recipeImages/1461601-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 10.6463,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 636300,
+                "title": "Brown sugar & Spice Sugar cookie frogs",
+                "image": "https://spoonacular.com/recipeImages/636300-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 6.46336,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 662151,
+                "title": "Sugar Cookies",
+                "image": "https://spoonacular.com/recipeImages/662151-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 12.4925,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639865,
+                "title": "Coffee Cookies",
+                "image": "https://spoonacular.com/recipeImages/639865-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 4.77488,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 646825,
+                "title": "Holiday Cookies",
+                "image": "https://spoonacular.com/recipeImages/646825-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.43549,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 637148,
+                "title": "Carob Chips Cookies",
+                "image": "https://spoonacular.com/recipeImages/637148-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 5.25187,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640489,
+                "title": "Cream Cheese Cookies",
+                "image": "https://spoonacular.com/recipeImages/640489-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 1.47021,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 71
+    },
+    "crab":
+    {
+        "results": [
+            {
+                "id": 640321,
+                "title": "Crab Stacks",
+                "image": "https://spoonacular.com/recipeImages/640321-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 18.3528,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640323,
+                "title": "Crab Wontons",
+                "image": "https://spoonacular.com/recipeImages/640323-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 3.9303,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640259,
+                "title": "Crab & Sweet Corn Soup",
+                "image": "https://spoonacular.com/recipeImages/640259-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.39464,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640279,
+                "title": "Crab Cakes Rockefeller",
+                "image": "https://spoonacular.com/recipeImages/640279-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 6.39273,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640273,
+                "title": "Crab Cake Stuffed Shrimp",
+                "image": "https://spoonacular.com/recipeImages/640273-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 5.86729,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640266,
+                "title": "Crab and Shrimp Burgers With Garlic Grits Fries",
+                "image": "https://spoonacular.com/recipeImages/640266-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 11.0497,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 636256,
+                "title": "Broiled Crab Cakes",
+                "image": "https://spoonacular.com/recipeImages/636256-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 18.512,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 640632,
+                "title": "Creamy Creole Crab Pots",
+                "image": "https://spoonacular.com/recipeImages/640632-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.47499,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 8
+    },
+    "fish": {
+        "results": [
+            {
+                "id": 642929,
+                "title": "Fish Congee",
+                "image": "https://spoonacular.com/recipeImages/642929-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 5.15535,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 4273,
+                "title": "Fish Hunan Style",
+                "image": "https://spoonacular.com/recipeImages/4273-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 1.31903,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 642927,
+                "title": "Fish Crocchette Appetizer",
+                "image": "https://spoonacular.com/recipeImages/642927-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 20.3716,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 663108,
+                "title": "Thai Fish Cakes",
+                "image": "https://spoonacular.com/recipeImages/663108-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 20.361,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 648974,
+                "title": "Kk's Fish Tacos",
+                "image": "https://spoonacular.com/recipeImages/648974-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 8.87639,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 652080,
+                "title": "Miso, Fish and Rice Stick Soup",
+                "image": "https://spoonacular.com/recipeImages/652080-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 2.86177,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 639658,
+                "title": "Claypot Fish",
+                "image": "https://spoonacular.com/recipeImages/639658-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 13.1583,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 658585,
+                "title": "Roasted Fish Bruschetta",
+                "image": "https://spoonacular.com/recipeImages/658585-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 14.7089,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 645714,
+                "title": "Grilled Fish With Sun Dried Tomato Relish",
+                "image": "https://spoonacular.com/recipeImages/645714-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 22.3129,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 196
+    },
+    "meat" : {
+        "results": [
+            {
+                "id": 651297,
+                "title": "Meat & Spinach-Stuffed Portabella Mushrooms with Goat Cheese",
+                "image": "https://spoonacular.com/recipeImages/651297-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 8.10312,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 652968,
+                "title": "Natchitoches Meat Pies",
+                "image": "https://spoonacular.com/recipeImages/652968-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 20.2985,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 633752,
+                "title": "Baked Ravioli & Meat Sauce",
+                "image": "https://spoonacular.com/recipeImages/633752-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 23.2196,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 643851,
+                "title": "Frikadellen German Meat Patties",
+                "image": "https://spoonacular.com/recipeImages/643851-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 9.6438,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 646778,
+                "title": "Hidden Veggie Chipotle Taco Meat",
+                "image": "https://spoonacular.com/recipeImages/646778-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 15.767,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 632851,
+                "title": "Asian Meatballs",
+                "image": "https://spoonacular.com/recipeImages/632851-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 4.5017,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 651341,
+                "title": "Meatball Sliders",
+                "image": "https://spoonacular.com/recipeImages/651341-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 15.9281,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 662917,
+                "title": "Tasty Easy Meatloaf",
+                "image": "https://spoonacular.com/recipeImages/662917-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 20.3954,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 633394,
+                "title": "BahnMi Meatball Sub",
+                "image": "https://spoonacular.com/recipeImages/633394-312x231.jpg",
+                "imageType": "jpg",
+                "nutrition": {
+                    "nutrients": [
+                        {
+                            "title": "Fat",
+                            "amount": 2.66541,
+                            "unit": "g"
+                        }
+                    ]
+                }
+            }
+        ],
+        "offset": 0,
+        "number": 9,
+        "totalResults": 28
+    }        
+}
+}
