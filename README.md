@@ -1,66 +1,59 @@
+# Webapplicatie: kunstkijken
 
-Link naar API WEEK 1: https://max-hauser.github.io/web-app-from-scratch-2021/index.html
+[Live link](Linkhttps://max-hauser.github.io/web-app-from-scratch-2021/kunstkijken/index.html)
+
+![voorblad](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/voorblad.png)
 
 # Web App From Scratch @cmda-minor-web 2020 - 2021
 
-In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API of your choice, manipulated and finally shown in the UI of the App. You will learn different ways to structure code and develop your own coding style. With the gained knowledge you will be able to build interactive prototypes, based on real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
+Tijdens dit onderdeel van de Minor Web heb ik geleerd om een simpele webapplicatie te maken, zonder gebruik te maken van libraries, dus puur en alleen standaard html, css en javascript. De webapplicatie is een single page web app, wat wil zeggen dat er maar 1 pagina wordt geladen, en de content steeds veranderd wordt.
+De data heb ik verkregen van het Rijksmuseum.
 
-## Learning goals
+## Verloop van het project
 
-* _You can add structure to your code by applying patterns. You can defend the choice for the chosen patterns_
-* _You can retrieve data, manipulate it and dynamically convert it to html elements using templating_
-* _You understand how you can work with an external API using asynchronous code_
-* _You understand how you can manage state in your application and you inform the user of state where necessary_
+### Week 1
 
-[Rubric](https://docs.google.com/spreadsheets/d/1vJJ4EhIqkefWj1nWFp0Pnvy1Kld-S2V3qwZgC6XQO0c/edit?usp=sharing), with learning goals
-[Overall plaaning](https://teams.microsoft.com/l/file/95EAEC95-4AB8-4E62-A810-2445969460B6?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F02%20-%20Web%20App%20From%20Scratch%2FWAFS%202021%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:9bd8abc7b32c4e0196ddbaae12cf8e79@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3)
+#### Maandag
 
-## Program
+Tijdens de kick-off  kregen mijn team (pink mando's) en ik de opdracht om een visitekaartje te maken. Dit was de mijne.
 
-### Week 1 - Hello API 🐒
+![visite kaartje](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ed5461bd-0504-459a-a7b7-bef3de220be3/Screenshot_2021-02-01_at_13.24.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210218T162011Z&X-Amz-Expires=86400&X-Amz-Signature=dabd141ea476d0545b4d07f5350cd88b1d5712fa3078f411d39abbd655422d3e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2021-02-01_at_13.24.42.png%22)
 
-Goal: Retrieve data from an API and render it in an overview page.
+#### Dinsdag
 
-[Excercises](https://github.com/cmda-minor-web/web-app-from-scratch-2021/blob/master/course/week-1.md)
+Voordat de les is begonnen heb ik gezocht naar een openbare API waarmee ik mijn web-app mee zal vullen. Na enig zoekwerk heb ik gekozen voor een recepten api. genaamd: recipepuppy.
 
-[Slides](https://docs.google.com/presentation/d/1hXfgIhBzJ2QXDmpKpMcx7G-a9R_fVrcPdeOyM3G0I00/edit?usp=sharing)
+[http://www.recipepuppy.com/api/](http://www.recipepuppy.com/api/)
 
-### Week 2 - Design and Refactor 🛠
+De API werd simpel maar effectief. Het kan zowel tags als queries verwerken, wat erg fijn werken is, omdat het gemakkelijk schaalbaar is.
 
-Goal: Design the web app. Add routes and states. Split code into modules. Rendering detail page.
+![eerste poging](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ce726899-3aa3-4038-842f-b46b1857dc23/screencapture-file-Users-max-Documents-week-1-hello-api-html-2021-02-02-11_33_24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210218T162232Z&X-Amz-Expires=86400&X-Amz-Signature=620de4753a929299bf6cf201d917de015e50e0b4240c0ffa5bcbba42e78b2d32&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22screencapture-file-Users-max-Documents-week-1-hello-api-html-2021-02-02-11_33_24.png%22)
 
-[Excercises](https://github.com/cmda-minor-web/web-app-from-scratch-2021/blob/master/course/week-2.md)
+#### Woensdag
 
-[Slides](https://docs.google.com/presentation/d/1ycANqFk9LtrZCBJF2TyQ1c_bejjEctSlb-52xbK_P1g/edit?usp=sharing)
+Vandaag had ik een presentatie. Ik had als onderwerp Motion paths. Voor de presentatie heb ik de volgende Codepen gemaakt:
+https://www.notion.so/Woensdag-3-februari-2021-08435b3f888d4bf1898ffc0c36b3d106#1db8135ae67343c08b931455d44ab57f
 
-### Week 3 - Wrapping up 🎁
+#### donderdag
 
-Goal:
-Manipulate data. Reflect on end result
+Op donderdag heb ik veel CSS gedaan voor CSS To The Rescue
 
-[Excercises](https://github.com/cmda-minor-web/web-app-from-scratch-2021/blob/master/course/week-3.md)
+#### Vrijdag
 
-[Slides](https://docs.google.com/presentation/d/1yZi-ODpENKHMr0-kpKmnCI6dGSgXS9oeLxMXCJnieic/edit?usp=sharing)
+Vandaag veel verschillende API's geprobeerd.
+Deze kwamen het meest naar voren:
+- Nutrition API
+- Edamam
+- spoonacular
 
-## Best Practices
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
+Uiteindelijk voor spoonacular gekozen.
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+![tweede poging](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7166a26b-5ed0-43f1-90b2-c0ad3f34a779/screencapture-max-hauser-github-io-web-app-from-scratch-2021-2021-02-05-11_32_30.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210218T162727Z&X-Amz-Expires=86400&X-Amz-Signature=66c6f7a97129d76afd6d7f24c4da1f8fa083397de50e99ea3eee4933bb8fcc2b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22screencapture-max-hauser-github-io-web-app-from-scratch-2021-2021-02-05-11_32_30.png%22)
 
-<!-- ☝️ replace this description with a description of your own work -->
+### Week 2 
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+### Week 3 
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+## Hoe te gebruiken
 
-<!-- Maybe a table of contents here? 📚 -->
 
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
