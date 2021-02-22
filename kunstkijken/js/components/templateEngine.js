@@ -2,13 +2,7 @@ import { getRandomArt, getArtByArtist, getArtDetails } from "../api.js";
 import { overviewTemplate } from "./templates/overview.js";
 import { detailTemplate } from "./templates/detail.js";
 import { artistTemplate } from "./templates/artist.js";
-
-function clearMain() {
-  const main = document.querySelector('main');
-  while (main.firstChild) {
-    main.removeChild(main.lastChild);
-  }    
-}
+import { clearMain } from "../components/clearmain.js";
 
 routie({
   '': () => {
