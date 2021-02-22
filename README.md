@@ -86,7 +86,8 @@ KunstKijken live gezet op Github!
 
 ##### actor diagram
 
-![actor diagram](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/actor-diagram.png)
+![actor diagram](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/actor.png)
+![interaction diagram](https://github.com/max-hauser/web-app-from-scratch-2021/blob/master/kunstkijken/images/interaction.png)
 
 ## Hoe te gebruiken
 
