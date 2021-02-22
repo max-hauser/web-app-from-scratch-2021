@@ -4,6 +4,8 @@ import { detailTemplate } from "./templates/detail.js";
 import { artistTemplate } from "./templates/artist.js";
 import { clearMain } from "../components/clearmain.js";
 
+const main = document.querySelector('main');
+
 routie({
   '': () => {
     overview();
@@ -15,7 +17,7 @@ routie({
 
 async function overview(){
   clearMain();
-  document.querySelector('main').className = "overview";
+  main.className = "overview";
   const artObjects = await getRandomArt();
   overviewTemplate(artObjects); 
 }
@@ -23,14 +25,14 @@ async function overview(){
 
 async function detail(hash) {
   clearMain();
-  document.querySelector('main').className = "detail";
+  main.className = "detail";
   const details = await getArtDetails(hash);
   detailTemplate(details);
 }
 
 async function searchArtist(name) {
   clearMain();
-  document.querySelector('main').className = "artist";
+  main.className = "artist";
   const details = await getArtByArtist(name);
   artistTemplate(details);    
 }
@@ -47,7 +49,7 @@ function next(){
     const allCards = Array.prototype.slice.call(cards);
     allCards[0].remove();
     if(allCards.length == 1){
-      document.querySelector('main').innerHTML = `<p>That's all folks!</p>`;
+      main.innerHTML = `<p>That's all folks!</p>`;
     }
   }
 }
