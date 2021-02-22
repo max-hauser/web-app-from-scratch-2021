@@ -14,11 +14,6 @@ function artistTemplate(data) {
         return {"id": id, "title": title, "image":image}
       }
     });
-    // const cardComponents = artObjects.map(object => ({
-    //   "id":object.objectNumber,
-    //   "title": object.title,
-    //   "image": object.webImage.url
-    // }));
     kunstwerken.forEach( async function(cardData) {
       if(cardData.id){
         const card = await cardTemplate(cardData.id, cardData.title, cardData.image);
