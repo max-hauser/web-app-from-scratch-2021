@@ -3,6 +3,7 @@ import { overviewTemplate } from "./templates/overview.js";
 import { detailTemplate } from "./templates/detail.js";
 import { artistTemplate } from "./templates/artist.js";
 import { clearMain } from "../components/clearmain.js";
+import { loading } from "../components/loadingscreen.js";
 
 const main = document.querySelector('main');
 
@@ -17,6 +18,7 @@ routie({
 
 async function overview(){
   clearMain();
+  loading(main);
   main.className = "overview";
   const artObjects = await getRandomArt();
   overviewTemplate(artObjects); 
@@ -25,6 +27,7 @@ async function overview(){
 
 async function detail(hash) {
   clearMain();
+  loading(main);
   main.className = "detail";
   const details = await getArtDetails(hash);
   detailTemplate(details);
@@ -32,6 +35,7 @@ async function detail(hash) {
 
 async function searchArtist(name) {
   clearMain();
+  loading(main);
   main.className = "artist";
   const details = await getArtByArtist(name);
   artistTemplate(details);    

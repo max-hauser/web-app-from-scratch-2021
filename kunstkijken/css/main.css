@@ -167,8 +167,8 @@ form{
 
 input#search {
   border: none;
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #444242;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-left: 0px;
@@ -193,4 +193,18 @@ input#query{
 .noResults a{
   text-decoration: none;
   color: #fff;
+}
+
+.loading{
+  border: 16px solid #333;
+  border-radius: 50%;
+  border-top: 16px solid #444;
+  width: 100px;
+  height: 100px;  
+  animation: load 0.8s ease infinite;
+}
+
+@keyframes load{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }  
 }
