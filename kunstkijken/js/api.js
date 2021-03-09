@@ -17,9 +17,10 @@ async function getArtByArtist(name){
 }
 
 async function getArtDetails(id){
-  const endpoint = 'https://www.rijksmuseum.nl/api/nl/collection', 
+  console.log(id)
+  const endpoint = 'https://www.rijksmuseum.nl/api/nl/collection/', 
         key = 'SM7rr6VN',
-        url = `${endpoint}/${id}?key=${key}`;
+        url = `${endpoint}${id}?key=${key}`;
         return fetch (url).then(response => response.json()).then(data => {removeLoading(); return data});      
 }
 
